@@ -4,10 +4,13 @@ jobs:
       dist: bionic
     - arch: s390x
       dist: focal
-    # - arch: s390x
-    #   dist: jammy
-    # - arch: s390x
-    #   dist: xenial
+    - arch: s390x
+      dist: jammy
+    - arch: s390x
+      dist: xenial
+
+   
+
 
 
 script:
@@ -16,6 +19,7 @@ script:
   - ping -c 10 8.8.8.8
   - echo $?
   - ip addr
+  - ip r
   - sudo sysctl net.ipv4.ping_group_range
   - cat /proc/self/gid_map
   - cat /etc/subuid
