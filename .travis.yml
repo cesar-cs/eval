@@ -9,7 +9,7 @@ jobs:
     - arch: s390x
       dist: xenial
 
-   
+language: minimal
 
 
 
