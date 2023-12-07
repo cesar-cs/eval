@@ -1,0 +1,41 @@
+jobs:
+  include:
+    - arch: s390x
+      dist: bionic
+    - arch: s390x
+      dist: focal
+    # - arch: s390x
+    #   dist: jammy
+    # - arch: s390x
+    #   dist: xenial
+
+
+script:
+  - uname -a
+  # - sudo apt-get update
+  - ping -c 10 8.8.8.8
+  - echo $?
+  - ip addr
+  - sudo sysctl net.ipv4.ping_group_range
+  - cat /proc/self/gid_map
+  - cat /etc/subuid
+  - cat /etc/subgid
+#   - ant -v
+#   - cat /etc/hostname
+#   - cat /etc/hosts
+#   - cat /etc/nsswitch.conf
+#   - cat /etc/resolv.conf
+#   - getent hosts localhost.localdomain
+#   - sudo true
+#   - hostnamectl
+#   - hostname
+#   - ls -lah /etc/cloud/cloud.cfg.d/
+#   - cat /etc/cloud/cloud.cfg
+#   - cat /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg
+#   - cat /etc/hosts 
+#   - sudo true
+#   - ping -c 3 localhost
+#   - echo -n "127.0.0.1 localhost " | sudo tee -a /etc/hosts
+#   - cat /etc/hosts 
+#   - sudo true
+  
