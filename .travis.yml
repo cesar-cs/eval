@@ -9,6 +9,7 @@ jobs:
     - arch: s390x
       dist: xenial
 
+group: edge
 language: minimal
 
 
