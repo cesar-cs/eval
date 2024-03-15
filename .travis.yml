@@ -2,12 +2,12 @@ jobs:
   include:
     - arch: s390x
       dist: jammy
-    - arch: s390x
-      dist: jammy
-    - arch: s390x
-      dist: jammy
-    - arch: s390x
-      dist: jammy
+    # - arch: s390x
+    #   dist: jammy
+    # - arch: s390x
+    #   dist: jammy
+    # - arch: s390x
+    #   dist: jammy
 
 group: edge
 language: minimal
