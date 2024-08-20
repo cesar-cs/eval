@@ -1,15 +1,15 @@
 jobs:
   include:
-    - arch: s390x
-      dist: jammy
-    - arch: s390x
+    - arch: ppc64le
       dist: bionic
-    - arch: s390x
-      dist: xenial
-    - arch: s390x
-      dist: focal
+    - arch: ppc64le
+      dist: bionic
+    - arch: ppc64le
+      dist: bionic
+    - arch: ppc64le
+      dist: bionic
 
-group: edge
+#group: edge
 language: minimal
 
 
