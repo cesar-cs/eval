@@ -1,13 +1,8 @@
 jobs:
   include:
     - arch: ppc64le
-      dist: bionic
-    - arch: ppc64le
-      dist: bionic
-    - arch: ppc64le
-      dist: bionic
-    - arch: ppc64le
-      dist: bionic
+      dist: xenial
+
 
 #group: edge
 language: minimal
