@@ -4,7 +4,7 @@ jobs:
       dist: xenial
 
 
-#group: edge
+group: previous
 language: minimal
 
 
