@@ -4,15 +4,15 @@ jobs:
       dist: bionic
 
 
-group: previous
+group: stable
 language: java
 
 
 
 script:
   - uname -a
-  # - sudo apt-get update
-  #- ping -c 10 8.8.8.8
+  - sudo apt-get update
+  - ping -c 10 8.8.8.8
   - echo $?
   - ip addr
   - ip r
