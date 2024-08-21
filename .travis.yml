@@ -1,7 +1,7 @@
 jobs:
   include:
     - arch: ppc64le
-      dist: xenial
+      dist: bionic
 
 
 group: previous
@@ -12,7 +12,7 @@ language: java
 script:
   - uname -a
   # - sudo apt-get update
-  - ping -c 10 8.8.8.8
+  #- ping -c 10 8.8.8.8
   - echo $?
   - ip addr
   - ip r
