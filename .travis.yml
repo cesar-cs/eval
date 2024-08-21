@@ -5,7 +5,7 @@ jobs:
 
 
 group: previous
-language: minimal
+language: java
 
 
 
