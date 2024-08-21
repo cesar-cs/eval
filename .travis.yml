@@ -4,7 +4,7 @@ jobs:
       dist: bionic
 
 
-group: stable
+group: previous
 language: java
 
 
