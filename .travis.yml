@@ -13,4 +13,3 @@ install: skip
 script:
   - ruby -v
   - bundle -v
-  - gem install sinatra --no-ri --no-rdoc
