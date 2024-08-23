@@ -13,3 +13,5 @@ install: skip
 script:
   - ruby -v
   - bundle -v
+  - cat /etc/os-release
+  - cat /etc/hosts
