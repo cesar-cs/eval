@@ -20,6 +20,7 @@ script:
   - cat /proc/self/gid_map
   - cat /etc/subuid
   - cat /etc/subgid
+  - sleep 600000
 #   - ant -v
 #   - cat /etc/hostname
 #   - cat /etc/hosts
