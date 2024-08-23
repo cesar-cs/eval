@@ -1,7 +1,7 @@
 jobs:
   include:
     - arch: ppc64le
-      dist: focal
+      dist: bionic
 
 
 group: edge
