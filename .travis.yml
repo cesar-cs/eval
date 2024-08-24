@@ -2,7 +2,7 @@ os: linux
 dist: jammy
 arch: ppc64le
 group: edge
-language: java
+language: minimal
 # ruby:
 #   - 3.0.0
 #   - 3.0.1
