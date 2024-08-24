@@ -1,7 +1,7 @@
 os: linux
-dist: focal
+dist: jammy
 arch: ppc64le
-group: stable
+group: edge
 language: minimal
 # ruby:
 #   - 3.0.0
