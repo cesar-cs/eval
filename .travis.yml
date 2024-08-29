@@ -2,6 +2,8 @@ jobs:
   include:
     - arch: s390x
       dist: focal
+    - arch: s390x
+      dist: bionic
 
 
 group: stable
