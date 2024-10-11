@@ -1,10 +1,10 @@
 jobs:
   include:
     - arch: ppc64le
-      dist: focal
+      dist: jammy
 
 
-group: stable
+group: edge
 language: java
 
 
