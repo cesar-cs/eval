@@ -17,8 +17,8 @@ script:
   - echo $?
   - ip addr
   - ip r
-  - systemctl status lxd-agent
-  - cloud-init status --long
+  # - systemctl status lxd-agent
+  # - cloud-init status --long
   # - sudo sysctl net.ipv4.ping_group_range
   # - cat /proc/self/gid_map
   # - cat /etc/subuid
