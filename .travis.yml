@@ -1,11 +1,11 @@
 jobs:
   include:
-    - arch: ppc64le
+    - arch: arm64
       dist: jammy
 
 
-group: edge
-language: java
+group: stable
+language: minimal
 
 
 
