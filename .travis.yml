@@ -1,6 +1,6 @@
 jobs:
   include:
-    - arch: arm64
+    - arch: ppc64le
       dist: focal
 
 
