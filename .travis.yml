@@ -1,7 +1,7 @@
 jobs:
   include:
     - arch: arm64
-      dist: focal
+      dist: bionic
 
 
 group: stable
