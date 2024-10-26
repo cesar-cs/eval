@@ -5,7 +5,7 @@ jobs:
 
 
 group: stable
-language: minimal
+language: shell
 
 
 
