@@ -1,11 +1,11 @@
 jobs:
   include:
     - arch: arm64
-      dist: jammy
+      dist: focal
 
 
 group: stable
-language: shell
+language: minimal
 
 
 
