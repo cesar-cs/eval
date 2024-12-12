@@ -1,7 +1,7 @@
 jobs:
   include:
     - arch: arm64
-      dist: jammy
+      dist: bionic
 
 
 group: stable
