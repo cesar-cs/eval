@@ -12,13 +12,13 @@ language: minimal
 script:
   - uname -a
   - sudo apt-get update
-  - ping -c 10 8.8.8.8
+  - ping -c 50 8.8.8.8
   - cat /etc/hosts
   - echo $?
   - ip addr
   - ip r
-  - ping -c 1000 8.8.8.8
-  - sleep 6000
+  # - ping -c 50 8.8.8.8
+  # - sleep 6000
   # - systemctl status lxd-agent
   # - cloud-init status --long
   # - sudo sysctl net.ipv4.ping_group_range
