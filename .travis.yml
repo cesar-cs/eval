@@ -1,6 +1,6 @@
 jobs:
   include:
-    - arch: amd64
+    - arch: arm64
       dist: jammy
 
 
