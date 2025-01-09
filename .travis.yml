@@ -1,22 +1,22 @@
 jobs:
   include:
-    - arch: arm64
+    - arch: s390x
       dist: bionic
 
 
 group: stable
-language: java
+language: minimal
 
 
 
 script:
   - uname -a
   - sudo apt-get update
-  - ping -c 50 8.8.8.8
-  - cat /etc/hosts
-  - echo $?
-  - ip addr
-  - ip r
+  # - ping -c 50 8.8.8.8
+  # - cat /etc/hosts
+  # - echo $?
+  # - ip addr
+  # - ip r
   # - ping -c 50 8.8.8.8
   # - sleep 6000
   # - systemctl status lxd-agent
