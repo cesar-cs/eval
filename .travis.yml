@@ -1,7 +1,7 @@
 jobs:
   include:
     - arch: s390x
-      dist: bionic
+      dist: jammy
 
 
 group: stable
